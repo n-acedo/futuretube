@@ -1,15 +1,16 @@
-* {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
-}
-
 body {
     margin: 0 auto;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 p {
     font-size: 1.5em;
  }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
 
 /* HEADER */ 
 header {
@@ -19,7 +20,6 @@ header {
 
 
 .header-link {
-    text-decoration: none;
     color: #ffffff;
     font-size: 3em;
     margin-right: 300px;
@@ -41,6 +41,23 @@ label {
 }
 
 /* FUTURETUBE.HTML */
+
+.menu-section {
+   display: grid;
+   grid-template-columns: 1fr 12fr;
+   grid-template-rows:  1fr;
+}
+
+.menu {
+    border-right: 1px dotted black;
+}
+
+.menu p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
 /* SECTION VIDEOS */
 
 .mediaLink {
