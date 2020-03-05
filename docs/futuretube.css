@@ -40,7 +40,7 @@ label {
     color: #ffffff;
 }
 
-/* FUTURETUBE.HTML */
+/* INDEX.HTML */
 
 .menu-section {
    display: grid;
@@ -100,6 +100,24 @@ article:hover {
 
 /* MEDIA1.HTML e MEDIA2.HTML */   
 
+
+.menu-section-media {
+    display: grid;
+    grid-template-columns: 1fr 12fr 1fr;
+    grid-template-rows:  1fr;
+ }
+ 
+ .menu-media {
+     border-right: 1px dotted black;
+ }
+ 
+ .menu-media p {
+     font-size: 1.2em;
+     margin-top: 20px;
+     margin-left: 15px;
+ }
+ 
+
 .sectionMedia1, .sectionMedia2 {
     padding: 50px 0;
     height: 90vh;
@@ -107,13 +125,43 @@ article:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: 40px;
 }
+
 
 video {
     height: 90%;
     margin-top: 30px;
     object-fit: contain;
+    align-self: flex-start;
 }
+
+.container-info-video {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.titulo-video{
+    width: 50%;
+    align-self: flex-start;
+}
+
+.button-container {
+    width: 50%;
+    justify-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-curtir, .button-descurtir {
+    height: 40px;
+    margin-right: 15px;;
+}
+
+
 
 /* FOOTER */
 
